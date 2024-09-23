@@ -1,0 +1,102 @@
+Questão 01 -
+ R)
+ A afirmação III está errada. A camada de Transporte é responsável por prover a entrega confiável de mensagens de processo a processo,
+ mas não é responsável por criptografar e comprimir dados.
+Questão 02 -
+R)
+Modelo OSI (Open Systems Interconnection):
+
+ Camada Física : é a mais baixa, sendo responsável pela transmissão de bits brutos pelo meio físico. Nela estão incluídos os cabos, fibras ópticas, entre outros.
+  As características elétricas e mecânicas da conexão são definidas nessa área.
+
+ Camada de Enlace de Dados : os bits são organizados em quadros, que são responsáveis por adicionar endereços físicos e dispostivos de detecção e correção de erros.
+  Esta camada é o responsável pelo acesso a um meio físico compartilhado.
+
+ Camada de Redes : pacotes de dados entre redes são encaminhados, com a determinação da melhor rota.
+  Dispositivos são identificados através de endereços lógicos.
+
+ A camada de transporte : é responsável por assegurar a entrega confiável dos dados entre aplicações. 
+Ela divide os dados em segmentos; além disso, ela é responsável pelo controle de fluxo. Protocolos como TCP e UDP funcionam na camada de transporte.
+
+ A camada de sessão : é responsável por estabelecer, gerenciar e desligar as conexões entre aplicações.
+
+ A camada de apresentação : é responsável por formatar os dados de forma adequada, de modo que sua interpretação seja possível para a camada de aplicação.
+  A criptografia e a compressão são exemplos de funções da camada de apresentação.
+
+ A camada de aplicação : é a mais alta em termos hierárquicos. Ela interage diretamente com o usuário. 
+ Protocolos da camada de aplicação incluem HTTP, FTP Email SMTP e outros.
+
+Modelo TCP/IP:
+ Camada de Aplicação : semelhante à camada de aplicação do OSI, mas com maior escopo; inclui as funções de várias camadas do OSI.
+  Principais funções: encapsulamento e descapsulamento; controle de fluxo; controle de congestionamento. Entre outras coisas, é responsável pela qualidade da comunicação entre o emissor e o destinatário.
+
+ Camada de Transporte : é responsável pelo transporte end-to-end dos dados. Protocolos usados: TCP (confiável) e UDP (não confiável).
+  O TCP controla a operação eficaz do nível de transporte e impede a sobrecarga de informação. O UDP, comparativamente, transmite informações sem controle e transparência em caso de sobrecarga.
+
+ Camada de Internet : encaminha o pacote de dados entre redes. Protocolo usado: IP.
+
+ Camada de Acesso à Rede : corresponde à camada física do ponto de vista do OSI; camada de enlace de dados; ele controla a qualidade e a ocorrência de comunicações.
+  É responsável pelo subsequente funcionamento do endereço físico
+
+  Diferenças entre os Modelos OSI e TCP/IP:
+Número de camadas: O OSI possui sete camadas, enquanto o TCP/IP possui quatro.
+Abordagem: O OSI é um modelo conceitual e mais detalhado, enquanto o TCP/IP é mais prático e implementado.
+Histórico: O OSI foi desenvolvido antes do TCP/IP e teve como objetivo criar um padrão universal para redes. O TCP/IP evoluiu a partir da implementação da internet.
+Flexibilidade: O TCP/IP é mais flexível e adaptável a diferentes tecnologias e ambientes de rede.
+
+
+Questão 03 -
+
+a)
+1-Barramento: Simples e barata, mas pode sofrer com colisões de dados em redes grandes.
+2-Estrela: Todos os dispositivos conectados a um ponto central. Fácil de gerenciar, mas depende do funcionamento do dispositivo central.
+3-Anel: Dados circulam em um anel fechado, mas uma falha pode derrubar a rede.
+4-Malha: Alta redundância e confiabilidade, mas é cara e complexa.
+5-Híbrida: Combina diferentes topologias para maior flexibilidade e escalabilidade.
+
+b)
+A escolha da topologia depende das necessidades específicas da rede. No entanto,
+ a topologia em estrela (Star) é uma das mais comuns e é adequada para a maioria das redes, pois é fácil de implementar e manter.
+
+Questão 04 - 
+R)
+1- a alternativa esta correta
+2- errada MAN abrange áreas metropolitanas e não países ou continentes.
+3- a descrição está incorreta. Refere-se à WLAN, e não à WAN.
+
+
+Questão 05 - 
+R)
+IPv4 (Internet Protocol version 4) é um protocolo de comunicação de dados que usa endereços de 32 bits,
+ enquanto IPv6 (Internet Protocol version 6) é um protocolo de comunicação de dados que usa endereços de 128 bits.
+
+O IPv6 foi criado para substituir o IPv4 devido à escassez de endereços disponíveis no IPv4.
+ Com o aumento do número de dispositivos conectados à internet, o IPv4 não era mais capaz de atender à demanda de endereços.
+
+
+Questão 06 - 
+R) O problema está no endereço IP configurado no dispositivo. No IP 192.311.20.256, os números "311" e "256" são inválidos, pois,
+ em um endereço IP válido, cada bloco (octeto) deve estar entre 0 e 255.
+
+Solução:
+Corrigir o endereço IP para que ele fique dentro dos limites permitidos. Por exemplo, um IP estático válido poderia ser algo como:
+ 192.168.1.100.
+
+Verificar também se os outros parâmetros da rede (como a máscara de sub-rede, gateway e DNS) estão configurados corretamente.
+
+Questão 07 - 
+R)  O endereço IP é 192.168.100.15 e a máscara de sub-rede é 255.255.0.0.
+
+
+Questão 08 - 
+R) O prefixo da rede é 200.128.164.192/26
+
+Questão 09 - 
+R) 
+A) a máscara de sub-rede é 255.255.255.240.
+B) a sub-rede pode suportar 14 host
+c) o endereço de broadcast da sub-rede 192.168.1.0/28 é 192.168.1.15.
+
+Questão 10 - 
+R) A máscara de sub-rede mais apropriada seria 255.255.255.128, que suportaria 126 hosts em cada sub-rede.
+
